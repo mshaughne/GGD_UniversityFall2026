@@ -8,6 +8,10 @@ public class HelloWorld : MonoBehaviour
     void Start()
     {
         Debug.Log("Hello World");
+
+        Goblin enemy1 = new Goblin();
+        enemy1.TakeDamage(10);
+        enemy1.Attack();
     }
 
     // Update is called once per frame
